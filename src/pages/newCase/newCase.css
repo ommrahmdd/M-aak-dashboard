@@ -1,0 +1,33 @@
+.newCase {
+  padding: 5rem 0;
+}
+.newCase__right h3 {
+  font-size: 3.5rem;
+  color: var(--mainColor);
+}
+.newCase__right-box label {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.newCase__right-box input {
+  direction: rtl;
+  padding: 0.5rem 2rem;
+  font-size: 1.4rem;
+  width: 30rem;
+  color: var(--mainColor);
+}
+
+.newCase__right-box textarea {
+  width: 30rem;
+  min-height: 12rem;
+  max-height: 20rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 425px) {
+  .newCase__right-box input,
+  .newCase__right-box textarea {
+    width: 20rem;
+  }
+}

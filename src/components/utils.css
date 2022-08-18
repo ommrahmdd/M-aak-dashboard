@@ -1,0 +1,28 @@
+.customBtn {
+  padding: 0.8rem 2rem;
+  font-size: 1.6rem;
+  font-family: "El Messiri";
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.primaryBtn {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+.primaryBtn:hover {
+  background-color: var(--whiteColor);
+  color: var(--mainColor);
+}
+
+.sBtn {
+  background-color: transparent;
+  border-bottom: 0.1rem solid var(--mainColor);
+  color: var(--mainColor);
+  font-size: 2.5rem;
+  transition: all 0.3s ease;
+}
+.sBtn:hover {
+  transform: translateX(1rem);
+  border-bottom: 0.1rem solid transparent;
+}
